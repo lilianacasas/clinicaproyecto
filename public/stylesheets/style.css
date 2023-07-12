@@ -1,0 +1,108 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 15px;
+  background-image: url("../imagenes/final.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+}
+
+h1 {
+  color: #110e0e;
+  text-align: center;
+
+}
+
+h2 {
+  text-align: center;
+  color: #313030;
+  margin-bottom: 6px;
+}
+
+table {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 6px;
+  text-align: left;
+  border-bottom: 2px solid #1d1717;
+}
+
+th {
+  background-color: #e9b0e6;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+input {
+  border: 0;
+}
+
+img{
+  width: 15px;
+}
+a{
+  display:inline-block
+}
+input,a,button{
+  font-size: 16px;
+
+}
+a, input[type="submit"] {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #e668ca;
+  border: none;
+  font-size: medium;
+  border-radius: 6px;
+}
+
+a:hover, input[type="submit"]:hover {
+  background-color: #40d1f5;
+}
+
+.volver, .editar{
+  background-color: #4cacaf;
+}
+
+.eliminar {
+  background-color: #721365;
+}
+
+.volver,.editar:hover {
+  background-color: #f36de1;
+}
+
+.eliminar:hover {
+  background-color: #6b0549;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.opciones-tabla{
+  display: flex;
+  justify-content: center;
+}
+
+.opciones-tabla a{
+  width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+#cabecera{ 
+  width: 250px;
+}
